@@ -1,3 +1,44 @@
-<h1>
-  {{title}}
-</h1>
+<!-- Header -->
+<app-header></app-header>
+
+<!-- Sidebar -->
+<app-sidebar></app-sidebar>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Page Header
+            <small>Optional description</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+            <li class="active">Here</li>
+        </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Router Outlet -->
+        <router-outlet></router-outlet>
+
+        <!-- Your Page Content Here -->
+        <!--<div class="panel panel-default">
+            <div class="panel-heading">{{ title }}</div>
+            <div class="panel-body">
+                {{ description }}
+            </div>
+        </div>-->
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+<!-- Footer -->
+<app-footer></app-footer>
+
+<!-- Control-Sidebar -->
+<app-control-sidebar></app-control-sidebar>
