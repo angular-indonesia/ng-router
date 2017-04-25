@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+  title       = 'Dashboard Works';
+  description = 'Your Dashboard Ready !';
+
   constructor() { }
 
   ngOnInit() {

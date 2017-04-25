@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrderComponent implements OnInit {
 
+  title       = 'Orders Works';
+  description = 'Your Orders Ready !';
+
   constructor() { }
 
   ngOnInit() {
