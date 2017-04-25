@@ -1,8 +1,13 @@
 import { Routes, RouterModule } from '@angular/router';
 
+import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { OrderComponent } from './order/order.component';
+
 export const routes: Routes = [
-  { path: '', redirectTo: 'component-one', pathMatch: 'full' },
-  { path: 'component-one', component: ComponentOne }
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'order', component: OrderComponent }
 ];
 
 export const appRoutingProviders: any[] = [

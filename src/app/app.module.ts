@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ControlSidebarComponent } from './control-sidebar/control-sidebar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { OrderComponent } from './order/order.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { ControlSidebarComponent } from './control-sidebar/control-sidebar.compo
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
-    ControlSidebarComponent
+    ControlSidebarComponent,
+    DashboardComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
